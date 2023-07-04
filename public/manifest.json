@@ -5,17 +5,5 @@
     "scope": "/",
     "start_url": "/",
     "name": "PNAME",
-    "short_name": "PNAME",
-    "icons": [
-        {
-            "src": "/icon-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/icon-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        }
-    ]
+    "short_name": "PNAME"
 }
