@@ -1,9 +1,6 @@
 import React from 'react';
 import { MdPreview } from 'react-icons/md';
 
-
-
-
 const Otherinformation =() =>{
 
     const Present_Committee = () => {

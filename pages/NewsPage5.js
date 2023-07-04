@@ -1,7 +1,7 @@
 import React from "react";
 
 import Topbanner from "../components/Modules/Topbanner";
-import NewsDetails5 from "../components/Modules/NewsDetails5";
+import NewsDetails5 from "../components/Modules/NewsDetailsFive";
 import BackToTop from "../components/Modules/BackToTop";
 
 const news_page_5 = () => {

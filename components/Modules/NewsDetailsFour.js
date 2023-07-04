@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import news4 from "../../public/img/news/news4.jpg";
 
-const News = () => {
+const NewsDetailsFour = () => {
   return (
     <div id="news1" className="section_padding ">
       <div className="container">
@@ -17,4 +17,4 @@ const News = () => {
     </div>
   );
 };
-export default News;
+export default NewsDetailsFour;
