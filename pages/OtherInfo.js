@@ -1,18 +1,15 @@
 import React from "react";
 import Topbanner from "../components/Modules/Topbanner";
-import Memberdetail from "../components/Modules/Memberdetail";
 import BackToTop from "../components/Modules/BackToTop";
+import Otherinformation from "../components/Modules/OtherInformation";
 
-const allmember = () => {
+const other_info = () => {
   return (
     <>
       <Topbanner />
-      <Memberdetail />
+      <Otherinformation />
       <BackToTop />
     </>
   );
 };
-
-export default allmember;
-
-
+export default other_info;

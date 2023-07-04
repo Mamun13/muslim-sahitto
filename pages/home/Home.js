@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import Welcome from '../../components/Modules/Welcome';
 import Marquee_textheader from '../../components/Modules/Marquee_textheader';
 import Services from '../../components/Modules/Services';
-import Video from '../../components/Modules/Video';
+import Video from '../../components/Modules/Video'
 import Members from '../../components/Modules/Members';
 import News from '../../components/Modules/News';
 import Faq from '../../components/Modules/Faq';
@@ -14,7 +14,6 @@ import Publications from '../../components/Modules/Publications';
 import Notice from '../../components/Modules/Notice';
 import Facilities from '../../components/Modules/Facilities';
 import BackToTop from '../../components/Modules/BackToTop';
-// import ReactModal from '../../components/Modules/ReactModal';
 
 
 
@@ -33,13 +32,9 @@ const Home = () => {
 			<Events/>
 			<Feedback/>
 			<Gallery/>
-			{/* <MemberImage/> */}
-			{/* <ReactModal/> */}
 			<Publications/>
 			<Notice/>
 			<Facilities/>
-			{/* <Subscribe/> */}
-			{/* <Partners/> */}
 
 			
 		</>

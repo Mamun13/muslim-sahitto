@@ -1,18 +1,17 @@
 import React from "react";
+
 import Topbanner from "../components/Modules/Topbanner";
-import Memberdetail from "../components/Modules/Memberdetail";
+import NewsDetails5 from "../components/Modules/NewsDetails5";
 import BackToTop from "../components/Modules/BackToTop";
 
-const allmember = () => {
+const news_page_5 = () => {
   return (
     <>
       <Topbanner />
-      <Memberdetail />
+      <NewsDetails5 />
       <BackToTop />
     </>
   );
 };
 
-export default allmember;
-
-
+export default news_page_5;

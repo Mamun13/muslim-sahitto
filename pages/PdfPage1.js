@@ -1,18 +1,17 @@
 import React from "react";
+
 import Topbanner from "../components/Modules/Topbanner";
-import Memberdetail from "../components/Modules/Memberdetail";
+import PdfPage_1 from "../components/Modules/PdfPage_1";
 import BackToTop from "../components/Modules/BackToTop";
 
-const allmember = () => {
+const pdfpage_1 = () => {
   return (
     <>
       <Topbanner />
-      <Memberdetail />
+      <PdfPage_1 />
       <BackToTop />
     </>
   );
 };
 
-export default allmember;
-
-
+export default pdfpage_1;
