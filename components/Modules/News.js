@@ -84,10 +84,10 @@ const News = () => {
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news2} alt="img" />
-                {/* <span className='date'><CgCalendarDates/>&nbsp; ১৬/০৩/২০২৩</span> */}
+                
               </div>
               <div className="newsText mt-2">
-                {/* <p className="newsSub">টেকনোলজি, নিউজ &nbsp; বাই অ্যাডমিন</p> */}
+               
                 <p className="mb-0 newsTitle">
                     {maxLength_result2}
                 </p>
@@ -102,10 +102,10 @@ const News = () => {
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news3} alt="img" />
-                {/* <span className='date'><CgCalendarDates/>&nbsp; ১৬/০৩/২০২৩</span> */}
+               
               </div>
               <div className="newsText mt-2">
-                {/* <p className="newsSub">টেকনোলজি, নিউজ &nbsp; বাই অ্যাডমিন</p> */}
+               
                 <p className="mb-0 newsTitle">
                     {maxLength_result3}
                 
@@ -121,10 +121,10 @@ const News = () => {
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news4} alt="img" />
-                {/* <span className='date'><CgCalendarDates/>&nbsp; ১৬/০৩/২০২৩</span> */}
+               
               </div>
               <div className="newsText mt-2">
-                {/* <p className="newsSub">টেকনোলজি, নিউজ &nbsp; বাই অ্যাডমিন</p> */}
+                
                 <p className="mb-0 newsTitle">
                     {maxLength_result4}
                 </p>
@@ -139,10 +139,10 @@ const News = () => {
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news5} alt="img" />
-                {/* <span className='date'><CgCalendarDates/>&nbsp; ১৬/০৩/২০২৩</span> */}
+               
               </div>
               <div className="newsText mt-2">
-                {/* <p className="newsSub">টেকনোলজি, নিউজ &nbsp; বাই অ্যাডমিন</p> */}
+                
                 <p className="mb-0 newsTitle">
                     {maxLength_result5}
                 
@@ -159,10 +159,10 @@ const News = () => {
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news6} alt="img" />
-                {/* <span className='date'><CgCalendarDates/>&nbsp; ১৬/০৩/২০২৩</span> */}
+                
               </div>
               <div className="newsText mt-2">
-                {/* <p className='newsSub'>টেকনোলজি, নিউজ &nbsp; বাই অ্যাডমিন</p> */}
+               
                 <p className="mb-0 newsTitle">
                     {maxLength_result6}
                 </p>

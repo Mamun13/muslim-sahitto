@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import {BsFillArrowUpCircleFill} from "react-icons/bs";
-
+import React, { useState, useEffect } from "react";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 
 const ScrollToTopButton = () => {
   const [showButton, setShowButton] = useState(false);
@@ -14,22 +13,22 @@ const ScrollToTopButton = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const handleButtonClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <div>
       {showButton && (
         <button id="backToTop" onClick={handleButtonClick}>
-         <BsFillArrowUpCircleFill/>
+          <BsFillArrowUpCircleFill />
         </button>
       )}
       {/* Rest of your React component */}
