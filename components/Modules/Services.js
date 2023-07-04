@@ -22,7 +22,6 @@ const Services = () => {
                                 <AiOutlineRead className='icon'/>
                             </div>
                             <div className='content'>
-                                {/* <h5>চমৎকার সুরক্ষা</h5> */}
                                 <p className='mb-0'>বিনামুল্যে বই পড়ার সুযোগ,  দৈনন্দিন জাতীয় ও স্থানীয় পত্রিকা পড়ার সুযোগ। সাপ্তাহিক সাহিত্য আসর। </p>
                             </div>
                         </div>

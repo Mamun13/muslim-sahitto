@@ -1,7 +1,4 @@
 import React from 'react';
-// import Link from 'next/link';
-// import { BsArrowRight } from "react-icons/bs";
-// import welcomeImg from "../../public//img/welcomeImg.png";
 import slider from "../../public/img/slider/sliderimage.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image'
@@ -63,33 +60,3 @@ function UncontrolledExample() {
 
 export default UncontrolledExample;
 
-// const Welcome = () => {
-  
-// 	return (
-//         <div id='welcomeSec'>
-//             <div className='container'>
-//                 <div className='welcomeBox'>
-//                     <div className='welContent me-3'>
-//                         <h2 className='title mb-4'>
-//                             মুসলিম সাহিত্য সংসদ প্রাঙ্গনে এখন চলছে তাঁতবস্ত্র ও হস্তশিল্প মেলা।
-//                         </h2>
-//                         <p className='subTitle'>
-//                             হোয়াইট হাউসের জাতীয় নিরাপত্তার মুখপাত্র জন কিরবি সোমবার সাংবাদিকদের বলেন, ওয়াশিংটনের কাছে সন্দেহ করার কোনো ‘নির্দিষ্ট কারণ’ নেই যে, বস্তুগুলো নজরদারি চালাচ্ছিল। তবে এটির সম্ভাবনা উড়িয়ে দেওয়া হচ্ছে না।
-//                         </p>
-						
-//                         <div className='cutomeBtn'>
-//                             <Link className='goBtn' href="/">শুরু করুন &nbsp;<BsArrowRight className='fs-5'/></Link>
-//                         </div>
-
-//                     </div>
-//                     <div className='welImage ms-3'>
-// 						<Image className="welcomeImg" src={welcomeImg} alt="img"/>
-//                     </div>
-//                 </div>
-
-//             </div>
-//         </div>
-//     )
-// };
-
-// export default Welcome;
