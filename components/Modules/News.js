@@ -8,7 +8,6 @@ import news4 from "../../public/img/news/news4.jpg";
 import news5 from "../../public/img/news/news5.jpg";
 import news6 from "../../public/img/news/news6.jpg";
 import { BsArrowRightCircle } from "react-icons/bs";
-import { CgCalendarDates } from "react-icons/cg";
 
 const News = () => {
     // first content
@@ -75,7 +74,7 @@ const News = () => {
                { maxLength_result}
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_1">
+              <Link className="newsBtn" href="NewsPage1">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
@@ -93,7 +92,7 @@ const News = () => {
                     {maxLength_result2}
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_2">
+              <Link className="newsBtn" href="/NewsPage2">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
@@ -112,7 +111,7 @@ const News = () => {
                 
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_3">
+              <Link className="newsBtn" href="/NewsPage3">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
@@ -130,7 +129,7 @@ const News = () => {
                     {maxLength_result4}
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_4">
+              <Link className="newsBtn" href="/NewsPage4">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
@@ -150,7 +149,7 @@ const News = () => {
 
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_5">
+              <Link className="newsBtn" href="/NewsPage5">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
@@ -168,7 +167,7 @@ const News = () => {
                     {maxLength_result6}
                 </p>
               </div>
-              <Link className="newsBtn" href="/news_page_6">
+              <Link className="newsBtn" href="/NewsPage6">
                 আরো পড়ুন
                 <BsArrowRightCircle className="newsArrow" />
               </Link>
