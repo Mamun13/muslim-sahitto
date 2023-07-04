@@ -1,7 +1,7 @@
 import React from 'react';
 import VideoModal from './VideoModal';
 
-const Video = () => {
+const DemoVideo = () => {
     return (
         
         <div id='video'>
@@ -30,4 +30,4 @@ const Video = () => {
     )
 }
 
-export default Video
+export default DemoVideo
