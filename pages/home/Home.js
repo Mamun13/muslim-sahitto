@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header';
 import Welcome from '../../components/Modules/Welcome';
 import Marquee_textheader from '../../components/Modules/Marquee_textheader';
 import Services from '../../components/Modules/Services';
-import Video from '../../components/Modules/Video'
+// import Video from '../../components/Modules/Video'
 import Members from '../../components/Modules/Members';
 import News from '../../components/Modules/News';
 import Faq from '../../components/Modules/Faq';
@@ -25,7 +25,7 @@ const Home = () => {
 			<Marquee_textheader/>
 			<BackToTop/>
 			<Services/>
-			<Video/>
+			{/* <Video/> */}
 			<Members/>
 			<News/>
 			<Faq/>
