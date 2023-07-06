@@ -20,7 +20,7 @@ import DemoVideo from '../../components/Modules/DemoVideo';
 const Home = () => {
 	return (
 		<>
-			<Header/>
+			{/* <Header/> */}
 			<Welcome/>
 			<Marquee_textheader/>
 			<BackToTop/>

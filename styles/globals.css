@@ -733,6 +733,14 @@ a {
   border-radius: 10px;
   padding: 40px 30px;
   background-color: #f8f8f8;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+.AllMember{
+  margin-top: 30px;
+  margin-bottom:20px ;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
 }
 .memImage2 {
   flex-shrink: 0 !important;
@@ -744,11 +752,11 @@ a {
 }
 .memImage3 {
   flex-shrink: 0 !important;
-  max-width: 65%;
-  width: 100%;
   height: 230px;
   border-radius: 5px;
   overflow: hidden;
+  justify-content: center;
+  border-top: 1px solid #008000;
 }
 
 .memContent2 {
@@ -1921,6 +1929,7 @@ a {
   width: 106px;
   height: 40px;
   color: #fff;
+  text-align: center!important;
   border-radius: 5px;
   padding: 10px 25px;
   font-family: "Lato", sans-serif;
@@ -2064,3 +2073,25 @@ a {
   }
 }
 /* header marquee css end */
+
+  /* responsive part start */
+    
+  @media (max-width: 767px) {
+    #menuBar{
+       background-color: RGBA(255,255,255,0.5);
+       backdrop-filter: blur(2px);
+    }
+    #Topslider{
+      margin-top: 95px;
+    }
+    .nav_toggle{
+      background-color: #fff !important;
+    }
+    .svg_resposi{
+      display: inline-block;
+    }
+    #menuBar .nav-link .custom-btn{
+      margin-left: 50px !important;
+    }
+}
+  /* responsive part end */

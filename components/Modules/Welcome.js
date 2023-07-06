@@ -5,8 +5,10 @@ import Image from 'next/image'
 
 
 
-function UncontrolledExample() {
+function Slider() {
   return (
+   <>
+   <section id='Topslider'>
     <Carousel>
       <Carousel.Item>
         <img
@@ -55,8 +57,10 @@ function UncontrolledExample() {
       </Carousel.Item>
       
     </Carousel>
+    </section>
+    </>
   );
 }
 
-export default UncontrolledExample;
+export default Slider;
 
