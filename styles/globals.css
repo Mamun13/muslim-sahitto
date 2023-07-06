@@ -260,7 +260,7 @@ a {
   width: 100%;
   z-index: 9999;
   position: fixed;
-  background-color: #92929285;
+  background-color: #aaaaaabd;
 }
 #menuBar .nav-link {
   font-family: "SolaimanLipi";
@@ -716,13 +716,13 @@ a {
 }
 .memImg {
   width: 100%;
-  height: 120%;
+  height: 130%;
   object-fit: cover;
 }
 
 .memImgbottom {
   width: 100%;
-  height: 200px;
+  height: 260px;
   object-fit: cover;
 }
 .memTitlebottom {
@@ -736,9 +736,9 @@ a {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
-.AllMember{
+.AllMember {
   margin-top: 30px;
-  margin-bottom:20px ;
+  margin-bottom: 50px;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
@@ -746,13 +746,13 @@ a {
   flex-shrink: 0 !important;
   max-width: 50%;
   width: 100%;
-  height: 230px;
+  height: 280px;
   border-radius: 5px;
   overflow: hidden;
 }
 .memImage3 {
   flex-shrink: 0 !important;
-  height: 230px;
+  height: 290px;
   border-radius: 5px;
   overflow: hidden;
   justify-content: center;
@@ -770,6 +770,9 @@ a {
 .memContent2 .designation::after {
   left: initial !important;
   right: 0 !important;
+}
+.memItem2 {
+  width: 20%;
 }
 
 @media (max-width: 991px) {
@@ -1887,7 +1890,7 @@ a {
 
 /* css for member page */
 .allmember {
-  max-height: 900px;
+  max-height: 910px;
   overflow: hidden;
   /* overflow-x: hidden; */
 }
@@ -1929,7 +1932,7 @@ a {
   width: 106px;
   height: 40px;
   color: #fff;
-  text-align: center!important;
+  text-align: center !important;
   border-radius: 5px;
   padding: 10px 25px;
   font-family: "Lato", sans-serif;
@@ -2074,24 +2077,77 @@ a {
 }
 /* header marquee css end */
 
-  /* responsive part start */
-    
-  @media (max-width: 767px) {
-    #menuBar{
-       background-color: RGBA(255,255,255,0.5);
-       backdrop-filter: blur(2px);
-    }
-    #Topslider{
-      margin-top: 95px;
-    }
-    .nav_toggle{
-      background-color: #fff !important;
-    }
-    .svg_resposi{
-      display: inline-block;
-    }
-    #menuBar .nav-link .custom-btn{
-      margin-left: 50px !important;
-    }
+/* responsive part start */
+
+@media (max-width: 767px) {
+  #menuBar {
+    background-color: RGBA(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  #Topslider {
+    margin-top: 95px;
+  }
+  .nav_toggle {
+    background-color: #fff !important;
+  }
+  .svg_resposi {
+    display: inline-block;
+  }
+  #menuBar .nav-link .custom-btn {
+    margin-left: 50px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  #menuBar .navbar-nav {
+    align-items: center;
+  }
+  #menuBar .nav-link {
+    color: #008000 !important;
+  }
+
+  /* memberdetails page responsive */
+  .AllMember {
+    flex-direction: column;
+  }
+  .memItem2 {
+    width: initial !important;
+  }
+  .memImage3 {
+    height: initial;
+  }
+  .memImgbottom {
+    height: 390px;
+  }
+  #members .memContent {
+    margin-bottom: 15px;
+  }
+  .sectionTitle p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .Imagebanner {
+    /* margin-top: 95px; */
+    display: none;
+  }
+  .allmembershow {
+    margin-top: 70px;
+  }
+
+  /* service section resposive start */
+  .fontstyle {
+    margin-left: -170px;
+  }
+  .viewAllBtn {
+    position: initial;
+    padding-left: 142px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .allmember{
+    max-height: 1120px;
+  }
 }
-  /* responsive part end */
+/* responsive part end */
