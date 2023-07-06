@@ -49,10 +49,10 @@ const Members = () => {
             মো. কামরুল আলম।
           </p>
           <div className="cutomeBtn viewAllBtn">
-            <Link className="goBtn" href="/allmember">
+            {/* <Link className="goBtn" href="/allmember">
               সকল সদস্য &nbsp;
               <BsArrowRightCircle className="newsGoicon" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -74,20 +74,20 @@ const Members = () => {
               <div className="col-lg-6 col-md-6">
                 <div className="memItem d-flex align-items-center">
                   <div className="memImage2 me-4">
-                    <Image src={team0} className="memImg" alt="img" />
+                    <Image src={team2} className="memImg" alt="img" />
                   </div>
                   <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitle">আহমেদ নূর</h5>
+                    <p className="designation">সাধারণ সম্পাদক</p>
+                    <h5 className="memTitle"> সৈয়দ মুমিন আহমদ মবনু</h5>
                     <p className="memDetails">২০২৩-২০২৪</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="row g-5 g-lg-0 topMember">
-              <div className="col-lg-3 col-md-6">
-                <div className="memItem align-items-center ">
-                  <div className="memImage3 me-4">
+            <div className="AllMember d-flex">
+              
+                <div className="memItem ms-2 me-2 align-items-center ">
+                  <div className="memImage3">
                     <Image src={team8} className="memImgbottom" alt="img" />
                   </div>
                   <div className="memContent">
@@ -95,10 +95,10 @@ const Members = () => {
                     <h5 className="memTitlebottom">আফতাব চৌধুরী</h5>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="memItem align-items-center">
-                  <div className="memImage3 me-4">
+              
+             
+                <div className="memItem ms-2 me-2 align-items-center">
+                  <div className="memImage3">
                     <Image src={team9} className="memImgbottom" alt="img" />
                   </div>
                   <div className="memContent">
@@ -106,10 +106,10 @@ const Members = () => {
                     <h5 className="memTitlebottom">সৈয়দ মুহাদ্দিস আহমদ </h5>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="memItem align-items-center">
-                  <div className="memImage3 me-4">
+              
+            
+                <div className="memItem ms-2 me-2 align-items-center">
+                  <div className="memImage3">
                     <Image src={team10} className="memImgbottom" alt="img" />
                   </div>
                   <div className="memContent">
@@ -117,10 +117,10 @@ const Members = () => {
                     <h5 className="memTitlebottom">মো.আবুল কালাম খান</h5>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6">
-                <div className="memItem align-items-center">
-                  <div className="memImage3 me-4">
+          
+             
+                <div className="memItem ms-2 me-2 align-items-center">
+                  <div className="memImage3">
                     <Image src={team11} className="memImgbottom" alt="img" />
                   </div>
                   <div className="memContent">
@@ -128,29 +128,27 @@ const Members = () => {
                     <h5 className="memTitlebottom">অধ্যাপক নন্দলাল শর্মা</h5>
                   </div>
                 </div>
-              </div>
+                <div className="memItem ms-2 me-2 align-items-center">
+                  <div className="memImage3">
+                    <Image src={team0} className="memImgbottom" alt="img" />
+                  </div>
+                  <div className="memContent">
+                    <p className="designation">সহসভাপতি</p>
+                    <h5 className="memTitlebottom">আহমেদ নূর</h5>
+                  </div>
+                </div>
+             
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6">
             <div className="memItem d-flex align-items-center">
               <div className="memImage">
-                <Image src={team2} className="memImg" alt="img" />
-              </div>
-              <div className="memContent">
-                <p className="designation">সাধারণ সম্পাদক</p>
-                <h5 className="memTitle">সৈয়দ মুমিন আহমদ মবনু</h5>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="memItem d-flex align-items-center">
-              <div className="memImage">
                 <Image src={team3} className="memImg" alt="img" />
               </div>
               <div className="memContent">
-                <p className="designation">সহসাধারণ সম্পাদক</p>
-                <h5 className="memTitle">আব্দুস সাদেক লিপন এডভোকেট</h5>
+                <p className="designation">সহসাধারণ সম্পাদক </p>
+                <h5 className="memTitle">আব্দুস সাদেক লিপন</h5>
               </div>
             </div>
           </div>
@@ -161,8 +159,19 @@ const Members = () => {
               </div>
               <div className="memContent">
                 <p className="designation">কোষাধ্যক্ষ</p>
+                <h5 className="memTitle">মো. ছয়ফুল করিম চৌধুরী হায়াত</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team24} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">আল ইসলাহ সম্পাদক</p>
                 <h5 className="memTitle">
-                  অধ্যক্ষ মো. ছয়ফুল করিম চৌধুরী হায়াত
+                আহমদ মাহবুব ফেরদৌস
                 </h5>
               </div>
             </div>
@@ -332,17 +341,7 @@ const Members = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="memItem d-flex align-items-center">
-              <div className="memImage">
-                <Image src={team24} className="memImg" alt="img" />
-              </div>
-              <div className="memContent">
-                <p className="designation">সদস্য</p>
-                <h5 className="memTitle">আহমদ মাহবুব ফেরদৌস</h5>
-              </div>
-            </div>
-          </div>
+        
         </div>
       </div>
     </div>
