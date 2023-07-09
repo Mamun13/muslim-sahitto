@@ -13,7 +13,7 @@ export default function Footer() {
        <div id='footer' className='py-5'>
                 <div className='container'>
                     <div className='row g-5'>
-                        <div className='col-lg-5'>
+                        <div className='col-lg-5 col-12 text-align-center'>
                             <div className='footerItem'>
                                 <h4 className='footerTitle'>নীতিমালা  
                                 </h4> 
@@ -27,7 +27,7 @@ export default function Footer() {
                                 </div> */}
                             </div>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-3 col-12'>
                             <div className='footerItem'>
                                 <h4 className='footerTitle'>
                                     আমাদের সার্ভিস
@@ -45,7 +45,7 @@ export default function Footer() {
 
                             </div>
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-lg-4 col-12'>
                             <div className='footerItem'>
                                 <h4 className='footerTitle'>
                                     যোগাযোগ করুন

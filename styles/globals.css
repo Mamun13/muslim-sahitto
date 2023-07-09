@@ -2173,6 +2173,11 @@ a {
     .settingItem{
       margin-top: 100px !important;
     }
+     /* footer section responsive start */
+
+ .copyright{
+  font-size: 10px;
+}
 
 }
 
@@ -2275,6 +2280,11 @@ a {
       margin-top:  100px !important;
     }
    
+ /* footer section responsive start */
+
+ .copyright{
+           font-size: 8px;
+ }
 
 }
 /* responsive part end */
