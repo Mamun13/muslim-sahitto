@@ -21,7 +21,7 @@ function Gallery() {
   return (
     <div id="gallery" className="section_padding">
       <div className="container">
-        <div className="sectionTitle center mb-4">
+        <div className="sectionTitle gallery_text center mb-4">
           {/* <h2>গ্যালারি</h2> */}
           <h2>
             কেন্দ্রীয় মুসলিম সাহিত্য সংসদ কার্যকরী পরিষদ সভাপতিবৃন্দ ১৯৩৬-২০২৪

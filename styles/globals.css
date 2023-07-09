@@ -2082,7 +2082,7 @@ a {
 
 /* responsive part start */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   #menuBar {
     background-color: RGBA(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
@@ -2160,11 +2160,121 @@ a {
   /* feedback section resposive start */
   
   #feedback .feedbackBanner{
-    padding-bottom: 165px !important;
+
+    padding-bottom: 150px !important;
+
   }
   .feedback_text_decorate{
     text-align: justify;
   }
+   /* feedback section resposive end */
+
+    /* otherinformation section resposive start */
+    .settingItem{
+      margin-top: 100px !important;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+  #menuBar {
+    background-color: RGBA(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  #Topslider {
+    margin-top: 95px;
+  }
+  .nav_toggle {
+    background-color: #fff !important;
+  }
+  .svg_resposi {
+    display: inline-block;
+  }
+  #menuBar .nav-link .custom-btn {
+    margin-left: 50px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  #menuBar .navbar-nav {
+    align-items: center;
+  }
+  #menuBar .nav-link {
+    color: #008000 !important;
+  }
+
+  /* memberdetails page responsive */
+  .AllMember {
+    flex-direction: column;
+  }
+  .memItem2 {
+    width: initial !important;
+  }
+  .memImage3 {
+    height: initial;
+  }
+  .memImgbottom {
+    height: 390px;
+  }
+  #members .memContent {
+    margin-bottom: 15px;
+  }
+  .sectionTitle p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  .Imagebanner {
+    /* margin-top: 95px; */
+    display: none;
+  }
+  .allmembershow {
+    margin-top: 70px;
+  }
+
+    /* memberdetails page responsive  end*/
+
+  /* gallery section resposive start */
+  .gallery_text h2{
+    font-size: 16px;
+  }
+ /* gallery section resposive end */
+
+  /* service section resposive start */
+  .fontstyle {
+    margin-left: -170px;
+  }
+  .viewAllBtn {
+    position: initial;
+    padding-left: 142px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .allmember{
+    max-height: 1100px;
+  }
+/* service section resposive end */
+
+  /* feedback section resposive start */
+  
+  #feedback .feedbackBanner{
+    padding-bottom: 195px !important;
+  }
+  .feedback_text_decorate{
+    text-align: left;
+  }
+  #feedback .card{
+    height: 380px;
+  }
+   /* feedback section resposive end */
+
+    /* otherinformation section resposive start */
+    .settingItem{
+      margin-top:  100px !important;
+    }
+   
 
 }
 /* responsive part end */
