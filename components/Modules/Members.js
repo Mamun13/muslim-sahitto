@@ -73,8 +73,8 @@ const Members = () => {
                             </div>
                          
                         </div>
-                        <div className="AllMember d-flex mb-5">
-                                <div className='memItem ms-2 me-2 align-items-center'>
+                        <div className="AllMember d-flex justify-content-center">
+                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
                                         <Image src={team8} className="memImgbottom" alt="img"/>
                                     </div>
@@ -86,7 +86,7 @@ const Members = () => {
                                 </div>
                             
                             
-                                <div className='memItem ms-2 me-2 align-items-center'>
+                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
                                         <Image src={team9} className="memImgbottom" alt="img"/>
                                     </div>
@@ -96,7 +96,7 @@ const Members = () => {
                                        
                                     </div>
                                 </div>
-                                <div className='memItem ms-2 me-2 align-items-center'>
+                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
                                         <Image src={team10} className="memImgbottom" alt="img"/>
                                     </div>
@@ -106,7 +106,7 @@ const Members = () => {
                                        
                                     </div>
                                 </div>
-                                <div className='memItem ms-2 me-2 align-items-center'>
+                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3 '>
                                         <Image src={team11} className="memImgbottom" alt="img"/>
                                     </div>
@@ -116,7 +116,7 @@ const Members = () => {
                                         
                                     </div>
                                 </div>
-                                <div className='memItem ms-2 me-2 align-items-center'>
+                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
                                         <Image src={team0} className="memImgbottom" alt="img"/>
                                     </div>

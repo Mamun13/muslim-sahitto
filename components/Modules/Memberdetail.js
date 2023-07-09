@@ -86,7 +86,7 @@ const Members = () => {
             </div>
             <div className="AllMember d-flex">
               
-                <div className="memItem ms-2 me-2 align-items-center ">
+                <div className="memItem memItem2 ms-2 me-2 align-items-center ">
                   <div className="memImage3">
                     <Image src={team8} className="memImgbottom" alt="img" />
                   </div>
@@ -97,7 +97,7 @@ const Members = () => {
                 </div>
               
              
-                <div className="memItem ms-2 me-2 align-items-center">
+                <div className="memItem memItem2 ms-2 me-2 align-items-center">
                   <div className="memImage3">
                     <Image src={team9} className="memImgbottom" alt="img" />
                   </div>
@@ -108,7 +108,7 @@ const Members = () => {
                 </div>
               
             
-                <div className="memItem ms-2 me-2 align-items-center">
+                <div className="memItem memItem2 ms-2 me-2 align-items-center">
                   <div className="memImage3">
                     <Image src={team10} className="memImgbottom" alt="img" />
                   </div>
@@ -119,7 +119,7 @@ const Members = () => {
                 </div>
           
              
-                <div className="memItem ms-2 me-2 align-items-center">
+                <div className="memItem memItem2 ms-2 me-2 align-items-center">
                   <div className="memImage3">
                     <Image src={team11} className="memImgbottom" alt="img" />
                   </div>
@@ -128,7 +128,7 @@ const Members = () => {
                     <h5 className="memTitlebottom">অধ্যাপক নন্দলাল শর্মা</h5>
                   </div>
                 </div>
-                <div className="memItem ms-2 me-2 align-items-center">
+                <div className="memItem memItem2 ms-2 me-2 align-items-center">
                   <div className="memImage3">
                     <Image src={team0} className="memImgbottom" alt="img" />
                   </div>
