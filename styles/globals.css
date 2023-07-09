@@ -2136,6 +2136,9 @@ a {
     margin-top: 70px;
   }
 
+    /* memberdetails page responsive  end*/
+
+
   /* service section resposive start */
   .fontstyle {
     margin-left: -170px;
@@ -2147,7 +2150,18 @@ a {
     font-size: 12px;
   }
   .allmember{
-    max-height: 1120px;
+    max-height: 1100px;
   }
+/* service section resposive end */
+
+  /* feedback section resposive start */
+  
+  #feedback .feedbackBanner{
+    padding-bottom: 154px !important;
+  }
+  .feedback_text_decorate{
+    text-align: justify;
+  }
+
 }
 /* responsive part end */

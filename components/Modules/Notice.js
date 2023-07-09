@@ -50,12 +50,12 @@ const Notice = () => {
           </p>
         </div>
         <div className="row gx-5">
-          <div className="col-xl-5 col-lg-5 ">
-            <div className="faqImageBox borderbox">
+          <div className="col-xl-5 col-lg-5 col-12">
+            <div className="faqImageBox borderbox mb-4">
               <Image src={noticeImg} className="faqImage" alt="img" />
             </div>
           </div>
-          <div className="col-xl-7 col-lg-7">
+          <div className="col-xl-7 col-lg-7 col-12">
             <Slider {...settings}>
               <div className="noticeItem">
                 <Link href="/">
