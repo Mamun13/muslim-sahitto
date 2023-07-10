@@ -70,6 +70,7 @@ const Otherinformation = () => {
 				let alink = document.createElement('a');
 				alink.href = fileURL;
 				alink.download = '../Present_Committee.pdf';
+        window.open('../Present_Committee.pdf');
 				alink.click();
 			})
 		})
