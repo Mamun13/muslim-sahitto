@@ -748,7 +748,7 @@ a {
 .memImage2 {
   flex-shrink: 0 !important;
   max-width: 50%;
-  width: 100%;
+  /* width: 100%; */
   height: 280px;
   border-radius: 5px;
   overflow: hidden;
@@ -2082,7 +2082,7 @@ a {
 
 /* responsive part start */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #menuBar {
     background-color: RGBA(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
@@ -2173,6 +2173,14 @@ a {
     .settingItem{
       margin-top: 100px !important;
     }
+
+       /* newspage responsive start */
+
+       .newsresponsive_padding{
+        padding-top: 80px !important;   
+           
+}
+
      /* footer section responsive start */
 
  .copyright{
@@ -2278,6 +2286,12 @@ a {
     /* otherinformation section resposive start */
     .settingItem{
       margin-top:  100px !important;
+    }
+
+    /* newspage responsive start */
+
+    .newsresponsive_padding{
+              padding-top: 80px !important;       
     }
    
  /* footer section responsive start */

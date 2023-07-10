@@ -69,7 +69,8 @@ const Otherinformation = () => {
 				// Setting various property values
 				let alink = document.createElement('a');
 				alink.href = fileURL;
-				alink.download = '../Present_Committee.pdf';
+				// alink.download = '../Present_Committee.pdf';
+        window.open('../Present_Committee.pdf');
 				alink.click();
 			})
 		})
