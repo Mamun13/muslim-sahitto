@@ -2195,6 +2195,10 @@ a {
         padding-top: 80px !important;   
            
 }
+/* event section responsive start */
+#events p{
+  text-align: center;
+}
 
      /* footer section responsive start */
 
