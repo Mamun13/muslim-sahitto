@@ -349,7 +349,7 @@ a {
 
 @media (max-width: 991px) {
   #menuBar {
-    background-color: rgba(245, 255, 255, 0.95);
+    background-color: #aaaaaabd;
   }
   #menuBar .language {
     display: inline-block !important;
@@ -371,6 +371,26 @@ a {
 
   #menuBar .dropdown-item {
     padding: 0px 30px !important;
+  }
+  .nav_toggle {
+    background-color: #fff !important;
+  }
+  .svg_resposi {
+    display: inline-block;
+  }
+  #menuBar .nav-link .custom-btn {
+    margin-left: 50px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+  #menuBar .navbar-nav {
+    align-items: center;
+  }
+  #menuBar .nav-link {
+    color: #008000 !important;
   }
   #menuBar .languageName::after {
     display: none;
@@ -1892,11 +1912,7 @@ a {
 }
 
 /* css for member page */
-.allmember {
-  max-height: 910px;
-  overflow: hidden;
-  /* overflow-x: hidden; */
-}
+
 .sectionTitle {
   padding-left: 15px;
   padding-right: 15px;
@@ -2115,6 +2131,7 @@ a {
   .AllMember {
     flex-direction: column;
   }
+
   .memItem2 {
     width: initial !important;
   }
@@ -2152,9 +2169,7 @@ a {
     margin-top: 20px;
     font-size: 12px;
   }
-  .allmember{
-    max-height: 1100px;
-  }
+  
 /* service section resposive end */
 
   /* feedback section resposive start */
@@ -2185,6 +2200,7 @@ a {
 
  .copyright{
   font-size: 10px;
+  color: #0DCAF0;
 }
 
 }
@@ -2265,9 +2281,7 @@ a {
     margin-top: 20px;
     font-size: 12px;
   }
-  .allmember{
-    max-height: 1100px;
-  }
+
 /* service section resposive end */
 
   /* feedback section resposive start */
@@ -2298,6 +2312,7 @@ a {
 
  .copyright{
            font-size: 8px;
+           color: red;
  }
 
 }

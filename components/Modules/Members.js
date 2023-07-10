@@ -45,7 +45,7 @@ const Members = () => {
                 </div>
 
                 <div className='row g-5'>
-                    <div className="col-lg-12">
+                    <div className="col-lg-12 ">
                         <div className="row g-5 g-lg-0 topMember">
                             <div className='col-lg-6 col-md-6'>
                                 <div className='memItem d-flex align-items-center'>
@@ -73,10 +73,10 @@ const Members = () => {
                             </div>
                          
                         </div>
-                        <div className="AllMember d-flex justify-content-center">
+                        <div className="AllMember d-flex">
                                 <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
-                                        <Image src={team8} className="memImgbottom" alt="img"/>
+                                        <Image src={team8} className="memImgbottom" roundedCircle alt="img"/>
                                     </div>
                                     <div className='memContent'>
                                         <p className='designation'>সহসভাপতি</p>
@@ -129,234 +129,206 @@ const Members = () => {
                         </div>
                     </div>
                     
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team2} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সাধারণ সম্পাদক</p>
-                                <h5 className='memTitle'>সৈয়দ মুমিন আহমদ মবনু</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team3} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সহসাধারণ সম্পাদক</p>
-                                <h5 className='memTitle'>আব্দুস সাদেক লিপন এডভোকেট</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team4} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>কোষাধ্যক্ষ</p>
-                                <h5 className='memTitle'>অধ্যক্ষ মো. ছয়ফুল করিম চৌধুরী হায়াত</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team5} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সাহিত্য ও গবেষণা সম্পাদক</p>
-                                <h5 className='memTitle'>মাহবুব হোসেন</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team6} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>লাইব্রেরি সম্পাদক</p>
-                                <h5 className='memTitle'>সয়ৈদ মোহাম্মদ তাহরে</h5>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team7} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সহ-লাইব্রেরি সম্পাদক</p>
-                                <h5 className='memTitle'>ইছমত হানিফা চৌধুরী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team12} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>এ এইচ মাহমুদ রাজা চৌধুরী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team13} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>সেলিম আউয়াল</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team14} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>জগলু চৌধুরী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team15} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>মোস্তাক আহমাদ দীন</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team16} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>ড. মো. জফির উদ্দিন</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team17} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>রেজওয়ান আহমদ</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team18} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>প্রিন্স সদরুজ্জামান চৌধুরী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team19} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>মো. জাহেদুর রহমান চৌধুরী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team20} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>কামাল তৈয়ব</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team21} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>ফায়যুর রাহমান</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team22} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>ইমদাদুল হক নোমানী</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team23} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>মো. কামরুল আলম</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <div className='col-lg-4 col-md-6'>
-                        <div className='memItem d-flex align-items-center'>
-                            <div className='memImage'>
-                                <Image src={team24} className="memImg" alt="img"/>
-                            </div>
-                            <div className='memContent'>
-                                <p className='designation'>সদস্য</p>
-                                <h5 className='memTitle'>আহমদ মাহবুব ফেরদৌস</h5>
-                                
-                            </div>
-                        </div>
-                    </div>
+                    {/* <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team3} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সহসাধারণ সম্পাদক </p>
+                <h5 className="memTitle">আব্দুস সাদেক লিপন</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team4} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">কোষাধ্যক্ষ</p>
+                <h5 className="memTitle">মো. ছয়ফুল করিম চৌধুরী হায়াত</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team24} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">আল ইসলাহ সম্পাদক</p>
+                <h5 className="memTitle">
+                আহমদ মাহবুব ফেরদৌস
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team5} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সাহিত্য ও গবেষণা সম্পাদক</p>
+                <h5 className="memTitle">মাহবুব হোসেন</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team6} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">লাইব্রেরি সম্পাদক</p>
+                <h5 className="memTitle">সয়ৈদ মোহাম্মদ তাহরে</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team7} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সহ-লাইব্রেরি সম্পাদক</p>
+                <h5 className="memTitle">ইছমত হানিফা চৌধুরী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team12} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">এ এইচ মাহমুদ রাজা চৌধুরী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team13} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">সেলিম আউয়াল</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team14} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">জগলু চৌধুরী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team15} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">মোস্তাক আহমাদ দীন</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team16} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">ড. মো. জফির উদ্দিন</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team17} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">রেজওয়ান আহমদ</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team18} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">প্রিন্স সদরুজ্জামান চৌধুরী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team19} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">মো. জাহেদুর রহমান চৌধুরী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team20} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">কামাল তৈয়ব</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team21} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">ফায়যুর রাহমান</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team22} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">ইমদাদুল হক নোমানী</h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6">
+            <div className="memItem d-flex align-items-center">
+              <div className="memImage">
+                <Image src={team23} className="memImg" alt="img" />
+              </div>
+              <div className="memContent">
+                <p className="designation">সদস্য</p>
+                <h5 className="memTitle">মো. কামরুল আলম</h5>
+              </div>
+            </div>
+          </div> */}
                 </div>
             </div>
         </div>
