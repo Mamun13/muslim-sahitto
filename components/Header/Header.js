@@ -23,11 +23,13 @@ export default function Header() {
             <Nav.Link as={Link} className="active" href="/">
               <FaHome className="svg_resposi" />
             </Nav.Link>
+            <Nav.Link href="#members">কার্যনির্বাহী পরিষদ</Nav.Link>
             <Nav.Link href="#services">কার্যক্রম</Nav.Link>
-            <Nav.Link href="#members">সদস্য</Nav.Link>
-            <Nav.Link href="#news">নিউজ এবং মিডিয়া</Nav.Link>
+            
+            <Nav.Link href="#news">ছবি ও সংবাদ</Nav.Link>
             <Nav.Link href="#gallery">সভাপতিবৃন্দ</Nav.Link>
-            <Nav.Link href="#publications">পাব্লিকেশন</Nav.Link>
+            <Nav.Link href="#publications">প্রকাশনা</Nav.Link>
+            <Nav.Link href="#publications">পরিচিতি</Nav.Link>
 
             <Nav.Link href="/OtherInfo" as={Link}  className="custom-btn btn-1">
               অন্যান্য তথ্য

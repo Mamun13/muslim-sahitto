@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header/Header';
 import Welcome from '../../components/Modules/Welcome';
-import Marquee_textheader from '../../components/Modules/Marquee_textheader';
+// import Marquee_textheader from '../../components/Modules/Marquee_textheader';
 import Services from '../../components/Modules/Services';
 import Members from '../../components/Modules/Members';
 import News from '../../components/Modules/News';
@@ -22,11 +22,12 @@ const Home = () => {
 		<>
 			{/* <Header/> */}
 			<Welcome/>
-			<Marquee_textheader/>
+			{/* <Marquee_textheader/> */}
+			<Members/>
 			<BackToTop/>
 			<Services/>
 			<DemoVideo/>
-			<Members/>
+			
 			<News/>
 			<Faq/>
 			<Events/>

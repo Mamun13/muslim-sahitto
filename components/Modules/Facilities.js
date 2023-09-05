@@ -17,12 +17,14 @@ const Facilities = () => {
         </div>
 
         <div className="row g-4">
-          <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+          
+          {/* <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
               <Image className="facilitiesImg" src={facilitiesImg1} alt="img" />
               <h6 className="mb-0 pt-3">এয়ার কন্ডিশন</h6>
             </div>
-          </div>
+          </div> */}
+
           <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
               <Image className="facilitiesImg" src={facilitiesImg2} alt="img" />
@@ -36,19 +38,20 @@ const Facilities = () => {
               <h6 className="mb-0 pt-3">কনফারেন্স রুম </h6>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+
+          {/* <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
               <Image className="facilitiesImg" src={facilitiesImg5} alt="img" />
               <h6 className="mb-0 pt-3">ওয়াই-ফাই</h6>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+          {/* <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
               <Image className="facilitiesImg" src={facilitiesImg7} alt="img" />
               <h6 className="mb-0 pt-3">ফায়ার সেফটি</h6>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
@@ -56,7 +59,8 @@ const Facilities = () => {
               <h6 className="mb-0 pt-3">অফিস রুম</h6>
             </div>
           </div>
-          <div className="col-lg-3 col-md-3 col-sm-4 col-6">
+
+          {/* <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">
               <Image
                 className="facilitiesImg"
@@ -65,7 +69,7 @@ const Facilities = () => {
               />
               <h6 className="mb-0 pt-3">জেনারেটার</h6>
             </div>
-          </div>
+          </div> */}
 
           <div className="col-lg-3 col-md-3 col-sm-4 col-6">
             <div className="facilitiesItem">

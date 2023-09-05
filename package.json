@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "devDependencies": {
     "@types/react": "18.0.28",
@@ -26,7 +27,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-image": "^4.1.0",
-    "react-images": "^1.2.0-beta.7",
+    "react-images": "^0.6.7",
     "react-photo-gallery": "^8.0.0",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",

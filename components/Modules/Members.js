@@ -36,10 +36,10 @@ const Members = () => {
         <div id='members' className='section_padding '>
             <div className='container allmember'>
                 <div className='sectionTitle member_space mb-4'>
-                    <h2>বোর্ডের বর্তমান সদস্য</h2>
+                    <h2>কার্যনির্বাহী পরিষদ সদস্যবৃন্দ</h2>
                     <p className='board_members'>২০২৩-২০২৪ সেশনের জন্য সভাপতি নির্বাচিত হন এম এ করিম চৌধুরী এবং সৈয়দ মবনু সাধারণ সম্পাদক। এই কমিটিতে সহসভাপতি আহমেদ নূর, আফতাব চৌধুরী, অধ্যক্ষ সৈয়দ মুহাদ্দিস আহমদ, মো. আবুল কালাম খান (কালাম আজাদ) ও অধ্যাপক নন্দলাল শর্মা। সহসাধারণ সম্পাদক এডভোকেট আব্দুস সাদেক লিপন, কোষাধ্যক্ষ অধ্যক্ষ মো. ছয়ফুল করিম চৌধুরী হায়াত, আল ইসলাহ সম্পাদক আহমদ মাহবুব ফেরদৌস, সাহিত্য ও গবেষণা সম্পাদক মাহবুব হোসেন, লাইব্রেরি সম্পাদক সৈয়দ মোহাম্মদ তাহের, সহকারী লাইব্রেরি সম্পাদক ইছমত হানিফা চৌধুরী। কার্যকরী কমিটির সদস্য অধ্যাপক দেওয়ান এ এইচ মাহমুদ রাজা চৌধুরী, সেলিম আউয়াল, জগলু চৌধুরী, মোস্তাক আহমদ দীন, ড. মো. জফির উদ্দিন (জফির সেতু), রেজওয়ান আহমদ, প্রিন্স সদরুজ্জামান চৌধুরী, মো. জাহেদুর রহমান চৌধুরী, কামাল তৈয়ব, ফায়যুর রাহমান, ইমদাদুল হক নোমানী ও মো. কামরুল আলম।</p>
                     <div className='cutomeBtn viewAllBtn'>
-                        <Link className='goBtn' href="/allmember">বর্তমান সদস্যবৃন্দ &nbsp;<BsArrowRightCircle className='newsGoicon'/></Link>
+                        <Link className='goBtn' href="/allmember">কার্যনির্বাহী সদস্যবৃন্দ &nbsp;<BsArrowRightCircle className='newsGoicon'/></Link>
                        
                     </div>
                 </div>
@@ -74,6 +74,16 @@ const Members = () => {
                          
                         </div>
                         <div className="AllMember d-flex">
+                        <div className='memItem memItem2 ms-2 me-2 align-items-center'>
+                                    <div className='memImage3'>
+                                        <Image src={team0} className="memImgbottom" alt="img"/>
+                                    </div>
+                                    <div className='memContent'>
+                                        <p className='designation'>সহসভাপতি</p>
+                                        <h5 className='memTitlebottom'>আহমেদ নূর</h5>
+                                        
+                                    </div>
+                                </div>
                                 <div className='memItem memItem2 ms-2 me-2 align-items-center'>
                                     <div className='memImage3'>
                                         <Image src={team8} className="memImgbottom" roundedCircle alt="img"/>
@@ -116,16 +126,7 @@ const Members = () => {
                                         
                                     </div>
                                 </div>
-                                <div className='memItem memItem2 ms-2 me-2 align-items-center'>
-                                    <div className='memImage3'>
-                                        <Image src={team0} className="memImgbottom" alt="img"/>
-                                    </div>
-                                    <div className='memContent'>
-                                        <p className='designation'>সহসভাপতি</p>
-                                        <h5 className='memTitlebottom'>আহমেদ নূর</h5>
-                                        
-                                    </div>
-                                </div>
+                              
                         </div>
                     </div>
                     
