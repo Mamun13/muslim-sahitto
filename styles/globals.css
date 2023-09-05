@@ -51,8 +51,8 @@ a {
 .font-inter {
   font-family: "Inter", sans-serif;
 }
-.pdf-btn-color{
-  background-color: #0DCAF0;
+.pdf-btn-color {
+  background-color: #0dcaf0;
 }
 
 /* new css atart here (24-may-2023)  */
@@ -747,6 +747,9 @@ a {
   width: 100%;
   height: 260px;
   object-fit: cover;
+}
+.memImage3 {
+  border-top: 0 !important;
 }
 .memTitlebottom {
   font-size: 13px;
@@ -2136,12 +2139,22 @@ a {
   .memItem2 {
     width: initial !important;
   }
+
   .memImage3 {
     height: initial;
   }
-  .memImgbottom {
-    height: 390px;
+
+  .memImage3 {
+    text-align: center;
   }
+
+  .memImgbottom {
+    height: auto;
+    width: 200px;
+    object-fit: contain;
+    display: inline-block;
+  }
+
   #members .memContent {
     margin-bottom: 15px;
   }
@@ -2157,8 +2170,22 @@ a {
     margin-top: 70px;
   }
 
-    /* memberdetails page responsive  end*/
+  .memImg{
+    height: auto !important;
+    width: 200px !important;
+    object-fit: contain !important;
+    display: inline-block !important;
+  }
 
+
+  .topMember .memImage2{
+    max-height: initial !important;
+  }
+  .memImage2{
+    height: auto !important;
+  }
+
+  /* memberdetails page responsive  end*/
 
   /* service section resposive start */
   .fontstyle {
@@ -2170,42 +2197,41 @@ a {
     margin-top: 20px;
     font-size: 12px;
   }
-  
-/* service section resposive end */
+
+  /* service section resposive end */
 
   /* feedback section resposive start */
-  
-  #feedback .feedbackBanner{
 
+  #feedback .feedbackBanner {
     padding-bottom: 150px !important;
-
   }
-  .feedback_text_decorate{
+  .feedback_text_decorate {
     text-align: justify;
   }
-   /* feedback section resposive end */
+  /* feedback section resposive end */
 
-    /* otherinformation section resposive start */
-    .settingItem{
-      margin-top: 100px !important;
-    }
+  /* otherinformation section resposive start */
+  .settingItem {
+    margin-top: 100px !important;
+  }
 
-       /* newspage responsive start */
+  /* newspage responsive start */
 
-       .newsresponsive_padding{
-        padding-top: 80px !important;   
-           
+  .newsresponsive_padding {
+    padding-top: 80px !important;
+  }
+  /* event section responsive start */
+  #events p {
+    text-align: center;
+  }
+
+  /* footer section responsive start */
+
+  .copyright {
+    font-size: 10px;
+    color: #0dcaf0;
+  }
 }
-
-     /* footer section responsive start */
-
- .copyright{
-  font-size: 10px;
-  color: #0DCAF0;
-}
-
-}
-
 
 @media (max-width: 576px) {
   #menuBar {
@@ -2246,9 +2272,6 @@ a {
   .memImage3 {
     height: initial;
   }
-  .memImgbottom {
-    height: 390px;
-  }
   #members .memContent {
     margin-bottom: 15px;
   }
@@ -2264,13 +2287,13 @@ a {
     margin-top: 70px;
   }
 
-    /* memberdetails page responsive  end*/
+  /* memberdetails page responsive  end*/
 
   /* gallery section resposive start */
-  .gallery_text h2{
+  .gallery_text h2 {
     font-size: 16px;
   }
- /* gallery section resposive end */
+  /* gallery section resposive end */
 
   /* service section resposive start */
   .fontstyle {
@@ -2283,38 +2306,37 @@ a {
     font-size: 12px;
   }
 
-/* service section resposive end */
+  /* service section resposive end */
 
   /* feedback section resposive start */
-  
-  #feedback .feedbackBanner{
+
+  #feedback .feedbackBanner {
     padding-bottom: 195px !important;
   }
-  .feedback_text_decorate{
+  .feedback_text_decorate {
     text-align: left;
   }
-  #feedback .card{
+  #feedback .card {
     height: 380px;
   }
-   /* feedback section resposive end */
+  /* feedback section resposive end */
 
-    /* otherinformation section resposive start */
-    .settingItem{
-      margin-top:  100px !important;
-    }
+  /* otherinformation section resposive start */
+  .settingItem {
+    margin-top: 100px !important;
+  }
 
-    /* newspage responsive start */
+  /* newspage responsive start */
 
-    .newsresponsive_padding{
-              padding-top: 80px !important;       
-    }
-   
- /* footer section responsive start */
+  .newsresponsive_padding {
+    padding-top: 80px !important;
+  }
 
- .copyright{
-           font-size: 8px;
-           color: red;
- }
+  /* footer section responsive start */
 
+  .copyright {
+    font-size: 8px;
+    
+  }
 }
 /* responsive part end */
