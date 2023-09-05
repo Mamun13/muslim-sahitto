@@ -7,8 +7,8 @@ const DemoVideo = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
-            <p className="subtitle text-light">কত বছর ধরে</p>
-            <h1 className="title">৮৭ বছরের ঐতিহ্যে</h1>
+            {/* <p className="subtitle text-light">কত বছর ধরে</p> */}
+            <h1 className="title">৮৭ বছরের ঐতিহ্য</h1>
           </div>
           <div className="col-lg-4">
             <div className="videoIcon d-flex align-items-center justify-content-end">

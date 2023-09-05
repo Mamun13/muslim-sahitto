@@ -3,70 +3,12 @@ import { MdPreview } from "react-icons/md";
 // import PDF from '../../public/img/pdf_page/Present_Committee.pdf'
 
 const Otherinformation = () => {
-  const Present_Committee = () => {
-    const fileUrl = "http://localhost:3000/img/Article/Present_Committee.pdf";
-    const fileName = "Present_Committee_List.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
+  
 
-    link.click();
-  };
-
-  const Committee_member_2007 = () => {
-    const fileUrl =
-      "http://localhost:3000/img/Article/All_Committee_2007-2023.pdf";
-    const fileName = "All_Committee_2007-2023.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    link.click();
-  };
-  const Committee_member_1936 = () => {
-    const fileUrl = "http://localhost:3000/img/Article/Committee_1936-2006.pdf";
-    const fileName = "All_Committee_1936.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    link.click();
-  };
-  const Library_Report = () => {
-    const fileUrl = "http://localhost:3000/img/Article/Library_Report.pdf";
-    const fileName = "Library_Report.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    link.click();
-  };
-
-  const Yearly_Program_List = () => {
-    const fileUrl = "http://localhost:3000/img/Article/Yearly_Program_List.pdf";
-    const fileName = "Yearly_Program_List.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    link.click();
-  };
-  const Book_Newspaper_List = () => {
-    const fileUrl = "http://localhost:3000/img/Article/Book_&_News_Paper.pdf";
-    const fileName = "Book_Newspaper_List.pdf";
-    const link = document.createElement("a");
-    link.href = fileUrl;
-    link.download = fileName;
-
-    link.click();
-  };
   const onButtonClick = () => {
-		// using Java Script method to get PDF file
 		fetch('../Present_Committee.pdf').then(response => {
 			response.blob().then(blob => {
-				// Creating new object of PDF file
 				const fileURL = window.URL.createObjectURL(blob);
-				// Setting various property values
 				let alink = document.createElement('a');
 				alink.href = fileURL;
 				alink.download = '../Present_Committee.pdf';
@@ -75,6 +17,69 @@ const Otherinformation = () => {
 			})
 		})
 	}
+  const onButtonClickOne = () => {
+		fetch('../img/pdf_page/All_Committee_2007-2023.pdf').then(response => {
+			response.blob().then(blob => {
+				const fileURL = window.URL.createObjectURL(blob);
+				let alink = document.createElement('a');
+				alink.href = fileURL;
+				alink.download = '../img/pdf_page/All_Committee_2007-2023.pdf';
+        window.open('../img/pdf_page/All_Committee_2007-2023.pdf');
+				alink.click();
+			})
+		})
+	}
+  const onButtonClickTwo = () => {
+		fetch('../img/pdf_page/Committee_1936-2006.pdf').then(response => {
+			response.blob().then(blob => {
+				const fileURL = window.URL.createObjectURL(blob);
+				let alink = document.createElement('a');
+				alink.href = fileURL;
+				alink.download = '../img/pdf_page/Committee_1936-2006.pdf';
+        window.open('../img/pdf_page/Committee_1936-2006.pdf');
+				alink.click();
+			})
+		})
+	}
+
+  const onButtonClickThree = () => {
+		fetch('../img/pdf_page/Library_Report.pdf').then(response => {
+			response.blob().then(blob => {
+				const fileURL = window.URL.createObjectURL(blob);
+				let alink = document.createElement('a');
+				alink.href = fileURL;
+				alink.download = '../img/pdf_page/Library_Report.pdf';
+        window.open('../img/pdf_page/Library_Report.pdf');
+				alink.click();
+			})
+		})
+	}
+  const onButtonClickFour = () => {
+		fetch('../img/pdf_page/Yearly_Program_List.pdf').then(response => {
+			response.blob().then(blob => {
+				const fileURL = window.URL.createObjectURL(blob);
+				let alink = document.createElement('a');
+				alink.href = fileURL;
+				alink.download = '../img/pdf_page/Yearly_Program_List.pdf';
+        window.open('../img/pdf_page/Yearly_Program_List.pdf');
+				alink.click();
+			})
+		})
+	}
+ 
+  const onButtonClickFive = () => {
+		fetch('../img/pdf_page/Book_&_News_Paper.pdf').then(response => {
+			response.blob().then(blob => {
+				const fileURL = window.URL.createObjectURL(blob);
+				let alink = document.createElement('a');
+				alink.href = fileURL;
+				alink.download = '../img/pdf_page/Book_&_News_Paper.pdf';
+        window.open('../img/pdf_page/Book_&_News_Paper.pdf');
+				alink.click();
+			})
+		})
+	}
+ 
 
   return (
     <div className="container">
@@ -104,7 +109,7 @@ const Otherinformation = () => {
                 </p>
               </div>
               <div className="col-md-4 floaddis">
-                <button onClick={onButtonClick} target="_blank" className="downloadpdf pdf-btn-color rounded-1">
+                <button onClick={onButtonClickOne} target="_blank" className="downloadpdf pdf-btn-color rounded-1">
                   <MdPreview className="grview font-20 mx-1 my-1" />
 								</button>
               </div>
@@ -117,7 +122,7 @@ const Otherinformation = () => {
                 </p>
               </div>
               <div className="col-md-4 floaddis">
-                <button onClick={onButtonClick} className="downloadpdf pdf-btn-color rounded-1">
+                <button onClick={onButtonClickTwo} className="downloadpdf pdf-btn-color rounded-1">
                   <MdPreview className="grview font-20 mx-1 my-1" />
 								</button>
               </div>
@@ -130,7 +135,7 @@ const Otherinformation = () => {
                 </p>
               </div>
               <div className="col-md-4 floaddis">
-                <button onClick={onButtonClick} className="downloadpdf pdf-btn-color rounded-1">
+                <button onClick={onButtonClickThree}  className="downloadpdf pdf-btn-color rounded-1">
                   <MdPreview className="grview font-20 mx-1 my-1" />
 								</button>
               </div>
@@ -143,7 +148,7 @@ const Otherinformation = () => {
                 </p>
               </div>
               <div className="col-md-4 floaddis">
-                <button onClick={onButtonClick} className="downloadpdf pdf-btn-color rounded-1">
+                <button onClick={onButtonClickFour} className="downloadpdf pdf-btn-color rounded-1">
                   <MdPreview className="grview font-20 mx-1 my-1" />
 								</button>
               </div>
@@ -156,7 +161,7 @@ const Otherinformation = () => {
                 </p>
               </div>
               <div className="col-md-4 floaddis">
-                <button onClick={onButtonClick} className="downloadpdf pdf-btn-color rounded-1">
+                <button onClick={onButtonClickFive}  className="downloadpdf pdf-btn-color rounded-1">
                   <MdPreview className="grview font-20 mx-1 my-1" />
 								</button>
               </div>

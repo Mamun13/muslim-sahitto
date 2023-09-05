@@ -85,7 +85,16 @@ const Members = () => {
               </div>
             </div>
             <div className="AllMember d-flex">
-              
+            <div className="memItem memItem2 ms-2 me-2 align-items-center">
+                  <div className="memImage3">
+                    <Image src={team0} className="memImgbottom" alt="img" />
+                  </div>
+                  <div className="memContent">
+                    <p className="designation">সহসভাপতি</p>
+                    <h5 className="memTitlebottom">আহমেদ নূর</h5>
+                  </div>
+                </div>
+                
                 <div className="memItem memItem2 ms-2 me-2 align-items-center ">
                   <div className="memImage3">
                     <Image src={team8} className="memImgbottom" alt="img" />
@@ -128,15 +137,7 @@ const Members = () => {
                     <h5 className="memTitlebottom">অধ্যাপক নন্দলাল শর্মা</h5>
                   </div>
                 </div>
-                <div className="memItem memItem2 ms-2 me-2 align-items-center">
-                  <div className="memImage3">
-                    <Image src={team0} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">আহমেদ নূর</h5>
-                  </div>
-                </div>
+             
              
             </div>
           </div>
