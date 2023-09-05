@@ -1,5 +1,5 @@
 import React from 'react';
-import slider from "../../public/img/slider/sliderimage.jpg";
+// import slider from "../../public/img/slider/sliderimage.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image'
 
@@ -10,10 +10,11 @@ function Slider() {
    <>
    <section id='Topslider'>
     <Carousel>
-      <Carousel.Item>
+    <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/slider/sliderimage4.jpg"
+          // src="/img/slider/sliderimage22.jpg"
+          src="/img/slider/image1.jpg"
           alt="First slide"
         />
        {/* <Carousel.Caption>
@@ -23,7 +24,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/slider/sliderimage2.jpg"
+          src="/img/slider/image2.jpg"
           alt="Second slide"
         />
 
@@ -34,7 +35,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/slider/sliderimage5.jpg"
+          src="/img/slider/image3.jpg"
           alt="Third slide"
         />
 
@@ -46,7 +47,7 @@ function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="/img/slider/sliderimage3.jpg"
+          src="/img/slider/image4.jpg"
           alt="Third slide"
         />
 

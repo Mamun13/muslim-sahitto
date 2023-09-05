@@ -46,19 +46,21 @@ export default function Footer() {
 
                                 <div className='footerContact'>
                                     {/* <p className='mb-0'>কল করুন ২৪/৭</p> */}
+                                    
+                                    <p className='mb-0'> কেন্দ্রীয় মুসলিম সাহিত্য সংসদ দরগা গেইট, সিলেট।
+                                    </p>
+                                    <HiOutlineLocationMarker className='contacticon'/>
+                                </div>
+                                <div className='footerContact'>
+                                    {/* <p className='mb-0'>ই-মেইল করুন</p> */}
                                     <p className='mb-0'>01611 719001</p>
                                     <IoIosCall className='contacticon'/>
                                 </div>
                                 <div className='footerContact'>
-                                    {/* <p className='mb-0'>ই-মেইল করুন</p> */}
+                                    {/* <p className='mb-0'>আমাদের ঠিকানা</p> */}
                                     <p className='mb-0'>kmss1936@gmail.com</p>
                                     <MdOutlineMailOutline className='contacticon'/>
-                                </div>
-                                <div className='footerContact'>
-                                    {/* <p className='mb-0'>আমাদের ঠিকানা</p> */}
-                                    <p className='mb-0'> কেন্দ্রীয় মুসলিম সাহিত্য সংসদ দরগা গেইট, সিলেট।
-                                    </p>
-                                    <HiOutlineLocationMarker className='contacticon'/>
+                                   
                                 </div>
                             </div>
                         </div>

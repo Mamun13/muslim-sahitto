@@ -13,7 +13,7 @@ const DemoVideo = () => {
           <div className="col-lg-4">
             <div className="videoIcon d-flex align-items-center justify-content-end">
               {/* <Link href="#" className='playbutton'> */}
-              <VideoModal />
+              <VideoModal/>
               {/* </Link> */}
               <p className="mb-0 ms-5 text-light">ভিডিও প্রেজেন্টেশন</p>
             </div>
