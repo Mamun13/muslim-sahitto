@@ -7,6 +7,8 @@ import book3 from "../../public/img/books/book3.jpg";
 import book4 from "../../public/img/books/book4.jpg";
 import book5 from "../../public/img/books/book5.jpg";
 import Book6 from '../../public/book/book6.jpg'
+import Book7 from '../../public/book/book7.jpg'
+import Book8 from '../../public/book/book8.jpg'
 
 import {BsArrowRightCircle, BsStar} from "react-icons/bs";
 import {FaStar} from "react-icons/fa";
@@ -176,6 +178,46 @@ const Publications = () => {
                                 <div className="tg-bookimg">
                                     <div className="tg-frontcover"><Image src={Book6} alt="img"/></div>
                                     <div className="tg-backcover"><Image src={Book6} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
+                            <p className="author mb-0 text-secondary"> .</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={Book7} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={Book7} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
+                            <p className="author mb-0 text-secondary"> .</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={Book8} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={Book8} alt="img"/></div>
                                 </div>
                             </figure>
                             <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
