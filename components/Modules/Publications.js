@@ -177,8 +177,8 @@ const Publications = () => {
                         <div className="tg-postbook">
                             <figure className="tg-featureimg">
                                 <div className="tg-bookimg">
-                                    <div className="tg-frontcover"><Image src={book6} alt="img"/></div>
-                                    <div className="tg-backcover"><Image src={book6} alt="img"/></div>
+                                    <div className="tg-frontcover"><Image src={book6} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book6} height={577} width={433} alt="img"/></div>
                                 </div>
                             </figure>
                             <h5 className="bookTitle mb-1">রচনা সমগ্রী</h5>
@@ -197,8 +197,8 @@ const Publications = () => {
                         <div className="tg-postbook">
                             <figure className="tg-featureimg">
                                 <div className="tg-bookimg">
-                                    <div className="tg-frontcover"><Image src={book7} alt="img"/></div>
-                                    <div className="tg-backcover"><Image src={book7} alt="img"/></div>
+                                    <div className="tg-frontcover"><Image src={book7} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book7} height={577} width={433} alt="img"/></div>
                                 </div>
                             </figure>
                             <h5 className="bookTitle mb-1">সিলেট বিজয়</h5>
@@ -217,8 +217,8 @@ const Publications = () => {
                         <div className="tg-postbook">
                             <figure className="tg-featureimg">
                                 <div className="tg-bookimg">
-                                    <div className="tg-frontcover"><Image src={book8} alt="img"/></div>
-                                    <div className="tg-backcover"><Image src={book8} alt="img"/></div>
+                                    <div className="tg-frontcover"><Image src={book8} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book8} height={577} width={433} alt="img"/></div>
                                 </div>
                             </figure>
                             <h5 className="bookTitle mb-1">সিলেটে সুফি সাধনা ও অন্যান্য প্রসঙ্গ</h5>
