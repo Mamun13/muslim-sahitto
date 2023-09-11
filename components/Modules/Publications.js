@@ -5,7 +5,7 @@ import book1 from "../../public/img/books/book1.jpg";
 import book2 from "../../public/img/books/book2.jpg";
 import book3 from "../../public/img/books/book3.jpg";
 import book4 from "../../public/img/books/book4.jpg";
-import book5 from "../../public/img/books/book5.jpg";
+import book5 from "../../public/book/book5.jpg";
 import Book6 from '../../public/book/book6.jpg'
 import Book7 from '../../public/book/book7.jpg'
 import Book8 from '../../public/book/book8.jpg'
@@ -180,8 +180,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={Book6} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
-                            <p className="author mb-0 text-secondary"> .</p>
+                            <h5 className="bookTitle mb-1">রচনা সমগ্রী</h5>
+                            <p className="author mb-0 text-secondary">এ, জেড, আব্দুল্লাহ</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -200,8 +200,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={Book7} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
-                            <p className="author mb-0 text-secondary"> .</p>
+                            <h5 className="bookTitle mb-1">সিলেট বিজয়</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -220,8 +220,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={Book8} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
-                            <p className="author mb-0 text-secondary"> .</p>
+                            <h5 className="bookTitle mb-1">সিলেটে সুফি সাধনা ও অন্যান্য প্রসঙ্গ</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
