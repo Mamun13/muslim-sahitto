@@ -6,7 +6,10 @@ import book2 from "../../public/img/books/book2.jpg";
 import book3 from "../../public/img/books/book3.jpg";
 import book4 from "../../public/img/books/book4.jpg";
 import book5 from "../../public/img/books/book5.jpg";
-import book9 from "../../public/img/books/book9.jpg";
+import book6 from "../../public/img/books/book6.jpg";
+import book7 from "../../public/img/books/book7.jpg";
+import book8 from "../../public/img/books/book8.jpg";
+
 import {BsArrowRightCircle, BsStar} from "react-icons/bs";
 import {FaStar} from "react-icons/fa";
 
@@ -77,8 +80,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={book1} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">লিপিকা</h5>
-                            <p className="author mb-0 text-secondary">রবীন্দ্রনাথ ঠাকুর</p>
+                            <h5 className="bookTitle mb-1">স্মারক</h5>
+                            {/* <p className="author mb-0 text-secondary">রবীন্দ্রনাথ ঠাকুর</p> */}
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -86,7 +89,7 @@ const Publications = () => {
                                 <FaStar className="star"/>
                                 <BsStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ৮৬</span> &nbsp; <del>৳ ১০০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ৮৬</span> &nbsp; <del>৳ ১০০</del></h6> */}
                         </div>
                     </div>
                     <div className="item">
@@ -97,8 +100,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={book2} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">গণ-দেবতা</h5>
-                            <p className="author mb-0 text-secondary">তারাশঙ্কর বন্দ্যোপাধ্যায়</p>
+                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
+                            {/* <p className="author mb-0 text-secondary">তারাশঙ্কর বন্দ্যোপাধ্যায়</p> */}
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -106,7 +109,7 @@ const Publications = () => {
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ২৫৫</span> &nbsp; <del>৳ ৩০০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ২৫৫</span> &nbsp; <del>৳ ৩০০</del></h6> */}
                         </div>
                     </div>
                     <div className="item">
@@ -117,8 +120,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={book3} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">হুতোম প্যাঁচার নকশা</h5>
-                            <p className="author mb-0 text-secondary">কালীপ্রসন্ন সিংহ</p>
+                            <h5 className="bookTitle mb-1">বই মেলা স্মারক-২০১৪ </h5>
+                            {/* <p className="author mb-0 text-secondary">কালীপ্রসন্ন সিংহ</p> */}
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -126,7 +129,7 @@ const Publications = () => {
                                 <FaStar className="star"/>
                                 <BsStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ১৭৬</span> &nbsp; <del>৳ ২৩০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ১৭৬</span> &nbsp; <del>৳ ২৩০</del></h6> */}
                         </div>
                     </div>
                     <div className="item">
@@ -137,8 +140,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={book4} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">বামুনের মেয়ে</h5>
-                            <p className="author mb-0 text-secondary">শরৎচন্দ্র চট্টোপাধ্যায়</p>
+                            <h5 className="bookTitle mb-1">সিলেটের শতবর্ষের ঐতিহ্য</h5>
+                            <p className="author mb-0 text-secondary">রাগিব হোসেন চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -146,7 +149,7 @@ const Publications = () => {
                                 <BsStar className="star"/>
                                 <BsStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ৫১০</span> &nbsp; <del>৳ ৬০০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ৫১০</span> &nbsp; <del>৳ ৬০০</del></h6> */}
                         </div>
                     </div>
                     <div className="item">
@@ -157,8 +160,8 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={book5} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">বালুচর</h5>
-                            <p className="author mb-0 text-secondary">জসীম উদ্দীন</p>
+                            <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
+                            {/* <p className="author mb-0 text-secondary">জসীম উদ্দীন</p> */}
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
@@ -166,31 +169,70 @@ const Publications = () => {
                                 <FaStar className="star"/>
                                 <BsStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={book6} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book6} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">রচনা সমগ্রী</h5>
+                            <p className="author mb-0 text-secondary">এ, জেড, আব্দুল্লাহ</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
                         </div>
                     </div>
                     <div className="item">
                         <div className="tg-postbook">
                             <figure className="tg-featureimg">
                                 <div className="tg-bookimg">
-                                    <div className="tg-frontcover"><Image src={book9} alt="img"/></div>
-                                    <div className="tg-backcover"><Image src={book9} alt="img"/></div>
+                                    <div className="tg-frontcover"><Image src={book7} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book7} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">বিধ্বস্ত নীলিমা</h5>
-                            <p className="author mb-0 text-secondary">শামসুর রাহমান</p>
+                            <h5 className="bookTitle mb-1">সিলেট বিজয়</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
-                                <BsStar className="star"/>
+                                <FaStar className="star"/>
                                 <BsStar className="star"/>
                             </div>
-                            <h6 className="price"> <span>৳ ১১৩</span> &nbsp; <del>৳ ১৫০</del></h6>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
                         </div>
                     </div>
-                    
-
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={book8} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book8} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">সিলেটে সুফি সাধনা ও অন্যান্য প্রসঙ্গ</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
                 </Slider>
             </div>
         </div>

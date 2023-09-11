@@ -3,8 +3,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image'
 
-
-
 function Slider() {
   return (
    <>
