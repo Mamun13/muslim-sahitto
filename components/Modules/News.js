@@ -80,7 +80,7 @@ const News = () => {
               </Link>
             </div>
           </div>
-          <div className="col-xl-4 col-lg-4 col-md-6">
+          <div className='col-xl-4 col-lg-4 col-md-6'>
             <div className="newsItem">
               <div className="imageBox">
                 <Image src={news2} alt="img" />
