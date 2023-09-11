@@ -6,9 +6,9 @@ import book2 from "../../public/img/books/book2.jpg";
 import book3 from "../../public/img/books/book3.jpg";
 import book4 from "../../public/img/books/book4.jpg";
 import book5 from "../../public/img/books/book5.jpg";
-// import book6 from "../../public/img/books/book6.jpg";
-// import book7 from "../../public/img/books/book7.jpg";
-// import book8 from "../../public/img/books/book8.jpg";
+import book6 from "../../public/img/books/book6.jpg";
+import book7 from "../../public/img/books/book7.jpg";
+import book8 from "../../public/img/books/book8.jpg";
 
 import {BsArrowRightCircle, BsStar} from "react-icons/bs";
 import {FaStar} from "react-icons/fa";
@@ -162,6 +162,66 @@ const Publications = () => {
                             </figure>
                             <h5 className="bookTitle mb-1">আল ইসলাহ</h5>
                             <p className="author mb-0 text-secondary"> .</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={book6} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book6} height={577} width={433} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">রচনা সমগ্রী</h5>
+                            <p className="author mb-0 text-secondary">এ, জেড, আব্দুল্লাহ</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={book7} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book7} height={577} width={433} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">সিলেট বিজয়</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
+                            <div className="rating">
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <FaStar className="star"/>
+                                <BsStar className="star"/>
+                            </div>
+                            {/* <h6 className="price"> <span>৳ ১৩৫</span> &nbsp; <del>৳ ১৮০</del></h6> */}
+                        </div>
+                    </div>
+                    <div className="item">
+                        <div className="tg-postbook">
+                            <figure className="tg-featureimg">
+                                <div className="tg-bookimg">
+                                    <div className="tg-frontcover"><Image src={book8} height={577} width={433} alt="img"/></div>
+                                    <div className="tg-backcover"><Image src={book8} height={577} width={433} alt="img"/></div>
+                                </div>
+                            </figure>
+                            <h5 className="bookTitle mb-1">সিলেটে সুফি সাধনা ও অন্যান্য প্রসঙ্গ</h5>
+                            <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
                                 <FaStar className="star"/>
