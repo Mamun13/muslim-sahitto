@@ -29,7 +29,7 @@ export default function Header() {
             <Nav.Link href="#news">ছবি ও সংবাদ</Nav.Link>
             <Nav.Link href="#gallery">সভাপতিবৃন্দ</Nav.Link>
             <Nav.Link href="#publications">প্রকাশনা</Nav.Link>
-            <Nav.Link href="#publications">পরিচিতি</Nav.Link>
+            {/* <Nav.Link href="#publications">পরিচিতি</Nav.Link> */}
 
             <Nav.Link href="/OtherInfo" as={Link}  className="custom-btn btn-1">
               অন্যান্য তথ্য
