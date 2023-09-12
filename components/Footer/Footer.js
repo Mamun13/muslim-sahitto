@@ -47,7 +47,7 @@ export default function Footer() {
                                 <div className='footerContact'>
                                     {/* <p className='mb-0'>কল করুন ২৪/৭</p> */}
                                     
-                                    <p className='mb-0'> কেন্দ্রীয় মুসলিম সাহিত্য সংসদ দরগা গেইট, সিলেট।
+                                    <p className='mb-0'> কেন্দ্রীয় মুসলিম সাহিত্য সংসদ, দরগা গেইট, সিলেট।
                                     </p>
                                     <HiOutlineLocationMarker className='contacticon'/>
                                 </div>
@@ -75,7 +75,7 @@ export default function Footer() {
                     <div className='footerItem'>
                         <h6 className='copyright'>
                         © ২০২৩ সর্বস্বত্ব সংরক্ষিত কেন্দ্রীয় মুসলিম সাহিত্য সংসদ, সিলেট | সৌজন্যে   
-                            <p className='mb-0 ms-2'><a href='http://apisolutionsltd.com/' target='_blank'><Image className="footerLogo" src={footerlogo} alt="img" /></a></p>
+                            <p className='mb-0 ms-3'><a href='http://apisolutionsltd.com/' target='_blank'><Image className="footerLogo" src={footerlogo} alt="img" /></a></p>
                         
                         </h6>
                     </div>

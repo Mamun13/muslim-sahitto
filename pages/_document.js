@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" Created_By="Jiaur Rahman | Modified_By= Rabeya Sultana | Author: API Solutions Ltd. | Update-Date: 01-06-2023">
       <Head>
       <meta charSet="utf-8" />
 					<meta httpEquiv="X-UA-Compatible" content="IE=edge" />

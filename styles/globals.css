@@ -1878,6 +1878,7 @@ a {
 }
 .footerContact p {
   color: #555;
+  font-size: 18px;
 }
 
 .footerBottom {
@@ -1885,7 +1886,7 @@ a {
   background-color: #008000;
 }
 .footerItem {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .copyright {
@@ -1897,6 +1898,8 @@ a {
 }
 .footerLogo {
   max-width: 40px;
+  filter: brightness(0) invert(1);
+  transform: translateY(-5px);
 }
 
 /* Footer CSS Ends Here */
