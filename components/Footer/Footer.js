@@ -53,7 +53,7 @@ export default function Footer() {
                                 </div>
                                 <div className='footerContact'>
                                     {/* <p className='mb-0'>ই-মেইল করুন</p> */}
-                                    <p className='mb-0'>01611 719001</p>
+                                    <p className='mb-0'>+880-1611719001</p>
                                     <IoIosCall className='contacticon'/>
                                 </div>
                                 <div className='footerContact'>
