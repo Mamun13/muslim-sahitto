@@ -739,14 +739,15 @@ a {
 }
 .memImg {
   width: 100%;
-  height: 130%;
+  height: 100%;
   object-fit: cover;
 }
 
 .memImgbottom {
-  width: 100%;
-  height: 260px;
+  width: 300PX;
+  height: 300px;
   object-fit: cover;
+  border-top: 1px solid #008000;
 }
 .memTitlebottom {
   font-size: 13px;
@@ -765,21 +766,24 @@ a {
   margin-left: -0.5rem;
   margin-right: -0.5rem;
 }
-.memImage2 {
-  flex-shrink: 0 !important;
-  max-width: 50%;
-  /* width: 100%; */
-  height: 280px;
-  border-radius: 5px;
-  overflow: hidden;
+.memItem{
+  width: 350px;
+  margin: auto;
 }
+.memImage2{
+  height: 350px;
+}
+.memContent{
+  margin-top: 20px;
+}
+
 .memImage3 {
   flex-shrink: 0 !important;
-  height: 290px;
+  /* height: 290px; */
   border-radius: 5px;
   overflow: hidden;
   justify-content: center;
-  border-top: 1px solid #008000;
+ 
 }
 
 .memContent2 {
@@ -794,9 +798,9 @@ a {
   left: initial !important;
   right: 0 !important;
 }
-.memItem2 {
+/* .memItem2 {
   width: 20%;
-}
+} */
 
 @media (max-width: 991px) {
   .topMember {
@@ -2135,7 +2139,6 @@ a {
   .AllMember {
     flex-direction: column;
   }
-
   .memItem2 {
     width: initial !important;
   }

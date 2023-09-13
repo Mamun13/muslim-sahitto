@@ -78,7 +78,7 @@ const Facilities = () => {
                 src={facilitiesImg12}
                 alt="img"
               />
-              <h6 className="mb-0 pt-3">বল রুম</h6>
+              <h6 className="mb-0 pt-3">হল রুম</h6>
             </div>
           </div>
         </div>

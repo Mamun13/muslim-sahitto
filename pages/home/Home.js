@@ -7,7 +7,7 @@ import Members from '../../components/Modules/Members';
 import News from '../../components/Modules/News';
 import Faq from '../../components/Modules/Faq';
 import Events from '../../components/Modules/Events';
-import Feedback from '../../components/Modules/Feedback';
+// import Feedback from '../../components/Modules/Feedback';
 import Gallery from '../../components/Modules/Gallery';
 import Publications from '../../components/Modules/Publications';
 import Notice from '../../components/Modules/Notice';
@@ -22,6 +22,7 @@ const Home = () => {
 		<>
 			{/* <Header/> */}
 			<Welcome/>
+			<Faq/>
 			{/* <Marquee_textheader/> */}
 			<Members/>
 			<BackToTop/>
@@ -29,9 +30,9 @@ const Home = () => {
 			<DemoVideo/>
 			
 			<News/>
-			<Faq/>
+			
 			<Events/>
-			<Feedback/>
+			{/* <Feedback/> */}
 			<Gallery/>
 			<Publications/>
 			<Notice/>

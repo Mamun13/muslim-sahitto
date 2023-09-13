@@ -23,7 +23,9 @@ export default function Header() {
             <Nav.Link as={Link} className="active" href="/">
               <FaHome className="svg_resposi" />
             </Nav.Link>
+            <Nav.Link href="#faq">ইতিহাস ও ঐতিহ্যে</Nav.Link>
             <Nav.Link href="#members">কার্যনির্বাহী পরিষদ</Nav.Link>
+           
             <Nav.Link href="#services">কার্যক্রম</Nav.Link>
             
             <Nav.Link href="#news">ছবি ও সংবাদ</Nav.Link>

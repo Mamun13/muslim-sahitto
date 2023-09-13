@@ -59,9 +59,9 @@ const Members = () => {
         <div className="row g-5">
           <div className="col-lg-12">
             <div className="row g-5 g-lg-0 topMember">
-              <div className="col-lg-6 col-md-6">
-                <div className="memItem d-flex align-items-center">
-                  <div className="memImage2 me-4">
+              <div className="col-lg-4 col-md-4 col-12">
+                <div className="memItem">
+                  <div className="memImage2">
                     <Image src={team} className="memImg" alt="img" />
                   </div>
                   <div className="memContent">
@@ -71,9 +71,21 @@ const Members = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-6">
-                <div className="memItem d-flex align-items-center">
-                  <div className="memImage2 me-4">
+              <div className="col-lg-4 col-md-4 col-12">
+                <div className="memItem">
+                  <div className="memImage2">
+                    <Image src={team0} className="memImg" alt="img" />
+                  </div>
+                  <div className="memContent">
+                    <p className="designation">ভারপ্রাপ্ত সভাপতি</p>
+                    <h5 className="memTitle">আহমেদ নূর</h5>
+                    <p className="memDetails">২০২৩-২০২৪</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-4 col-12">
+                <div className="memItem">
+                  <div className="memImage2">
                     <Image src={team2} className="memImg" alt="img" />
                   </div>
                   <div className="memContent">
@@ -84,62 +96,57 @@ const Members = () => {
                 </div>
               </div>
             </div>
-            <div className="AllMember d-flex">
-            <div className="memItem memItem2 ms-2 me-2 align-items-center">
-                  <div className="memImage3">
-                    <Image src={team0} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">আহমেদ নূর</h5>
-                  </div>
-                </div>
-                
-                <div className="memItem memItem2 ms-2 me-2 align-items-center ">
-                  <div className="memImage3">
-                    <Image src={team8} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">আফতাব চৌধুরী</h5>
-                  </div>
-                </div>
-              
-             
-                <div className="memItem memItem2 ms-2 me-2 align-items-center">
-                  <div className="memImage3">
-                    <Image src={team9} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">সৈয়দ মুহাদ্দিস আহমদ </h5>
-                  </div>
-                </div>
-              
-            
-                <div className="memItem memItem2 ms-2 me-2 align-items-center">
-                  <div className="memImage3">
-                    <Image src={team10} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">মো.আবুল কালাম খান</h5>
-                  </div>
-                </div>
-          
-             
-                <div className="memItem memItem2 ms-2 me-2 align-items-center">
-                  <div className="memImage3">
-                    <Image src={team11} className="memImgbottom" alt="img" />
-                  </div>
-                  <div className="memContent">
-                    <p className="designation">সহসভাপতি</p>
-                    <h5 className="memTitlebottom">অধ্যাপক নন্দলাল শর্মা</h5>
-                  </div>
-                </div>
-             
-             
-            </div>
+         
+      <div className="row mt-5 mb-3">
+      
+        <div className="col-lg-3 col-md-3 col-12">
+        <div className="memItem2">
+          <div className="memImage3">
+            <Image src={team8} className="memImgbottom" alt="img" />
+          </div>
+          <div className="memContent">
+            <p className="designation">সহসভাপতি</p>
+            <h5 className="memTitlebottom">আফতাব চৌধুরী</h5>
+          </div>
+        </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-12">
+        <div className="memItem2">
+          <div className="memImage3">
+            <Image src={team9} className="memImgbottom" alt="img" />
+          </div>
+          <div className="memContent">
+            <p className="designation">সহসভাপতি</p>
+            <h5 className="memTitlebottom">সৈয়দ মুহাদ্দিস আহমদ </h5>
+          </div>
+        </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-12">
+        <div className=" memItem2">
+          <div className="memImage3">
+            <Image src={team10} className="memImgbottom" alt="img" />
+          </div>
+          <div className="memContent">
+            <p className="designation">সহসভাপতি</p>
+            <h5 className="memTitlebottom">মো.আবুল কালাম খান</h5>
+          </div>
+        </div>
+        </div>
+        <div className="col-lg-3 col-md-3 col-12">
+        <div className="memItem2">
+          <div className="memImage3">
+            <Image src={team11} className="memImgbottom" alt="img" />
+          </div>
+          <div className="memContent">
+            <p className="designation">সহসভাপতি</p>
+            <h5 className="memTitlebottom">অধ্যাপক নন্দলাল শর্মা</h5>
+          </div>
+        </div>
+        </div> 
+    
+    </div>
+           
+
           </div>
 
           <div className="col-lg-4 col-md-6">
