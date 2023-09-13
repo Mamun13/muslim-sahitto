@@ -23,7 +23,7 @@ const Home = () => {
 			{/* <Header/> */}
 			<Welcome/>
 			<Faq/>
-			{/* <Marquee_textheader/> */}
+			
 			<Members/>
 			<BackToTop/>
 			<Services/>
@@ -34,6 +34,7 @@ const Home = () => {
 			<Events/>
 			{/* <Feedback/> */}
 			<Gallery/>
+			{/* <Marquee_textheader/> */}
 			<Publications/>
 			<Notice/>
 			<Facilities/>
