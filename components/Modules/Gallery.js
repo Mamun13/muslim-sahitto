@@ -23,7 +23,7 @@ import imag1 from "../../public/img/general_secretary/imag1.jpg";
 import imag2 from "../../public/img/general_secretary/imag2.jpg";
 import imag3 from "../../public/img/general_secretary/imag3.jpg";
 import imag4 from "../../public/img/general_secretary/imag4.jpg";
-import imag5 from "../../public/img/imag5.jpg";
+import imag5 from "../../public/img/general_secretary/imag5.jpg";
 import imag6 from "../../public/img/general_secretary/imag6.jpg";
 import imag7 from "../../public/img/general_secretary/imag7.jpg";
 import imag8 from "../../public/img/general_secretary/imag8.jpg";
