@@ -17,6 +17,20 @@ import image13 from "../../public/img/president/image13.jpg";
 import image14 from "../../public/img/president/image14.jpg";
 import image15 from "../../public/img/president/image15.jpg";
 
+// general secretary
+import imag from "../../public/img/general_secretary/imag.jpg";
+import imag1 from "../../public/img/general_secretary/imag1.jpg";
+import imag2 from "../../public/img/general_secretary/imag2.jpg";
+import imag3 from "../../public/img/general_secretary/imag3.jpg";
+import imag4 from "../../public/img/general_secretary/imag4.jpg";
+import imag5 from "../../public/img/general_secretary/imag5.jpg";
+import imag6 from "../../public/img/general_secretary/imag6.jpg";
+import imag7 from "../../public/img/general_secretary/imag7.jpg";
+import imag8 from "../../public/img/general_secretary/imag8.jpg";
+import imag9 from "../../public/img/general_secretary/imag9.jpg";
+import imag10 from "../../public/img/general_secretary/imag10.jpg";
+import imag11 from "../../public/img/general_secretary/imag11.jpg";
+
 function Gallery() {
   return (
     <div id="gallery" className="section_padding">
@@ -216,7 +230,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image15} alt="img" />
+                <Image src={imag} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">মৌলভী এ জেড আব্দুল্লাহ ১৯৩৬-৩৮</p>
@@ -226,7 +240,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image13} alt="img" />
+                <Image src={imag1} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">নুরুল হক ও সুবহান চৌধুরী ১৯৩৮-৪১</p>
@@ -236,7 +250,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image14} alt="img" />
+                <Image src={imag1} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">মুহম্মদ নুরুল হক ১৯৪১-১৯৮৭</p>
@@ -246,7 +260,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image12} alt="img" />
+                <Image src={imag2} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">নাসীর উদ্দিন ১৯৮৭-৮৮</p>
@@ -256,7 +270,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image11} alt="img" />
+                <Image src={imag3} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">আব্দুল ওয়াহেদ খান ১৯৮৮-১৯৯২</p>
@@ -266,7 +280,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image10} alt="img" />
+                <Image src={imag4} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">শামসুল আলম চৌধুরী ১৯৯২-১৯৯৪</p>
@@ -286,7 +300,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image9} alt="img" />
+                <Image src={imag5} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">রাগিব হোসেন চৌধুরী(১৯৯৪-৯৮)(২০০৩-০৬)</p>
@@ -296,7 +310,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image7} alt="img" />
+                <Image src={imag6} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">আব্দুল করিম চৌধুরী (১৯৯৮ মে,জুন,জুলাই)</p>
@@ -306,7 +320,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image8} alt="img" />
+                <Image src={imag7} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">হারুনুজ্জামান চৌধুরী(১৯৯৮-০২)(২০০৭-১০)</p>
@@ -316,7 +330,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image6} alt="img" />
+                <Image src={imag8} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">আবদুল হামিদ মানিক(২০১১-১৪)(২০২১-২২)</p>
@@ -326,7 +340,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image5} alt="img" />
+                <Image src={imag9} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">আজিজুল হক মানিক ২০১৫-২০১৬</p>
@@ -337,7 +351,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image4} alt="img" />
+                <Image src={imag10} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">এ এইচ মাহমুদ রাজা চৌধুরী২০১৭-২০২০</p>
@@ -347,7 +361,7 @@ function Gallery() {
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
-                <Image src={image3} alt="img" />
+                <Image src={imag11} alt="img" />
               </div>
               <div className="card-body">
                 <p className="gallery_text">সৈয়দ মুমিন আহমদ মবনু  ২০২৩-২০২৪</p>
