@@ -220,7 +220,7 @@ const Publications = () => {
                                     <div className="tg-backcover"><Image src={Book8} alt="img"/></div>
                                 </div>
                             </figure>
-                            <h5 className="bookTitle mb-1">সিলেটে সুফি সাধনা ও অন্যান্য প্রসঙ্গ</h5>
+                            <h5 className="bookTitle mb-1">সিলেটসুফিসাধনাওঅন্যান্যপ্রসঙ্গ</h5>
                             <p className="author mb-0 text-secondary">আফজাল চৌধুরী</p>
                             <div className="rating">
                                 <FaStar className="star"/>
