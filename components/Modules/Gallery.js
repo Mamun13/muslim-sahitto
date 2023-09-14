@@ -237,23 +237,14 @@ function Gallery() {
               </div>
             </div>
           </div>
+       
           <div className="col-lg-3 col-md-6 col-6">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag1} alt="img" />
               </div>
               <div className="card-body">
-                <p className="gallery_text">নুরুল হক ও সুবহান চৌধুরী ১৯৩৮-৪১</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 col-6">
-          <div className="card">
-              <div className="imageBox">
-                <Image src={imag1} alt="img" />
-              </div>
-              <div className="card-body">
-                <p className="gallery_text">মুহম্মদ নুরুল হক ১৯৪১-১৯৮৭</p>
+                <p className="gallery_text">মুহম্মদ নুরুল হক ১৯৩৮-১৯৮৭</p>
               </div>
             </div>
           </div>

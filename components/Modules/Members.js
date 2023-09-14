@@ -97,7 +97,7 @@ const Members = () => {
               </div>
             </div>
             <div className="row mt-5 mb-3">
-              <div className="col-lg-3 col-md-3 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="memItem2">
                   <div className="memImage3">
                     <Image src={team8} className="memImgbottom" alt="img" />
@@ -108,7 +108,7 @@ const Members = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="memItem2">
                   <div className="memImage3">
                     <Image src={team9} className="memImgbottom" alt="img" />
@@ -119,7 +119,7 @@ const Members = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className=" memItem2">
                   <div className="memImage3">
                     <Image src={team10} className="memImgbottom" alt="img" />
@@ -130,7 +130,7 @@ const Members = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-3 col-12">
+              <div className="col-lg-3 col-md-6 col-12">
                 <div className="memItem2">
                   <div className="memImage3">
                     <Image src={team11} className="memImgbottom" alt="img" />
