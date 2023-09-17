@@ -42,7 +42,7 @@ function Gallery() {
           </h2>
         </div>
         <div className="row g-4">
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image15} alt="img" />
@@ -52,7 +52,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image13} alt="img" />
@@ -62,7 +62,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image14} alt="img" />
@@ -72,7 +72,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image12} alt="img" />
@@ -82,7 +82,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image11} alt="img" />
@@ -92,7 +92,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image10} alt="img" />
@@ -112,7 +112,7 @@ function Gallery() {
               </div>
             </div>
           </div> */}
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image9} alt="img" />
@@ -122,7 +122,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image7} alt="img" />
@@ -132,7 +132,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image8} alt="img" />
@@ -142,7 +142,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image6} alt="img" />
@@ -152,7 +152,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image5} alt="img" />
@@ -163,7 +163,7 @@ function Gallery() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image4} alt="img" />
@@ -173,7 +173,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={image3} alt="img" />
@@ -183,7 +183,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
             <div className="card">
               <div className="imageBox">
                 <Image src={image2} alt="img" />
@@ -193,7 +193,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
             <div className="card">
               <div className="imageBox">
                 <Image src={image1} alt="img" />
@@ -203,7 +203,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
             <div className="card">
               <div className="imageBox">
                 <Image src={image} alt="img" />
@@ -227,7 +227,7 @@ function Gallery() {
           </h2>
         </div>
         <div className="row g-4">
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag} alt="img" />
@@ -238,7 +238,7 @@ function Gallery() {
             </div>
           </div>
        
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag1} alt="img" />
@@ -248,7 +248,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag2} alt="img" />
@@ -258,7 +258,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag3} alt="img" />
@@ -268,7 +268,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag4} alt="img" />
@@ -288,7 +288,7 @@ function Gallery() {
               </div>
             </div>
           </div> */}
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag5} alt="img" />
@@ -298,7 +298,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag6} alt="img" />
@@ -308,7 +308,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag7} alt="img" />
@@ -318,7 +318,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag8} alt="img" />
@@ -328,7 +328,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag9} alt="img" />
@@ -339,7 +339,7 @@ function Gallery() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag10} alt="img" />
@@ -349,7 +349,7 @@ function Gallery() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-md-6 col-6">
+          <div className="col-lg-3 col-md-6 col-12">
           <div className="card">
               <div className="imageBox">
                 <Image src={imag11} alt="img" />
