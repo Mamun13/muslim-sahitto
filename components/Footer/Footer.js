@@ -12,7 +12,7 @@ export default function Footer() {
 		<>
        <div id='footer' className='py-5'>
                 <div className='container'>
-                    <div className='row g-5'>
+                    <div className='row'>
                         {/* <div className='col-lg-5 col-12 text-align-center'>
                             <div className='footerItem'>
                                 <h4 className='footerTitle'>নীতিমালা  
@@ -38,32 +38,38 @@ export default function Footer() {
 
                             </div>
                         </div> */}
-                        <div className='col-lg-12 col-12'>
-                            <div className='footerItem d-flex justify-content-center'>
+                        {/* <div className='col-lg-12 col-12'> */}
+                            
                                 {/* <h5 className='footerTitle'>
                                     যোগাযোগ করুন
                                 </h5> */}
-
-                                <div className='footerContact'>
+                             <div className='col-lg-4 col-xl-6 col-md-4 '>
+                             <div className='footerContact'>
                                     {/* <p className='mb-0'>কল করুন ২৪/৭</p> */}
                                     
                                     <p className='mb-0'> কেন্দ্রীয় মুসলিম সাহিত্য সংসদ, দরগা গেইট, সিলেট।
                                     </p>
                                     <HiOutlineLocationMarker className='contacticon'/>
                                 </div>
-                                <div className='footerContact'>
+                             </div>
+                             <div className='col-lg-4 col-xl-3 col-md-4'>
+                             <div className='footerContact'>
                                     {/* <p className='mb-0'>ই-মেইল করুন</p> */}
                                     <p className='mb-0'>+880-1611719001</p>
                                     <IoIosCall className='contacticon'/>
                                 </div>
-                                <div className='footerContact'>
+                             </div>
+                             <div className='col-lg-4 col-xl-3 col-md-4'>
+                             <div className='footerContact'>
                                     {/* <p className='mb-0'>আমাদের ঠিকানা</p> */}
                                     <p className='mb-0'>kmss1936@gmail.com</p>
                                     <MdOutlineMailOutline className='contacticon'/>
                                    
                                 </div>
-                            </div>
-                        </div>
+                             </div>
+                               
+                           
+                        {/* </div> */}
 
 
                     </div>
