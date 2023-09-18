@@ -15,10 +15,10 @@ export default function Document() {
 					<meta name="msapplication-TileColor" content="#ffffff" />
 					<meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
 					<meta name="theme-color" content="#ffffff" />
-					<meta name="application-name" content="Next Js PWA App" />
+					<meta name="application-name" content="Muslim Sahitya Sangsad" />
 					<meta name="apple-mobile-web-app-capable" content="yes" />
 					<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-					<meta name="apple-mobile-web-app-title" content="Next Js PWA App" />
+					<meta name="apple-mobile-web-app-title" content="Muslim Sahitya Sangsad" />
 					<meta name="format-detection" content="telephone=no" />
 					<meta name="mobile-web-app-capable" content="yes" />
 					<meta name="msapplication-config" content="icons/browserconfig.xml" />
@@ -28,15 +28,15 @@ export default function Document() {
 					{/* <!-- Twitter Card data --> */}
 					<meta name="twitter:card" content="summary" />
 					<meta name="twitter:url" content="#" />
-					<meta name="twitter:title" content="Next Js PWA App" />
+					<meta name="twitter:title" content="Muslim Sahitya Sangsad" />
 					<meta name="twitter:description" content="#" />
 					<meta name="twitter:image" content="#" />
 					<meta name="twitter:creator" content="#" />
 					{/* <!-- Open Graph data --> */}
 					<meta property="og:type" content="website" />
-					<meta property="og:title" content="IFAD IMPL APP" />
-					{/* <meta property="og:description" content="Next Js PWA App" /> */}
-					{/* <meta property="og:site_name" content="Next Js PWA App" /> */}
+					<meta property="og:title" content="Muslim Sahitya Sangsad" />
+					{/* <meta property="og:description" content="Muslim Sahitya Sangsad" /> */}
+					{/* <meta property="og:site_name" content="Muslim Sahitya Sangsad" /> */}
 					{/* <meta property="og:url" content="#" /> */}
 					{/* <meta property="og:image" content="#" /> */}
 					{/* <!-- gmail verification --> */}
